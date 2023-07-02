@@ -39,7 +39,7 @@ class FaceRecognition:
         video_capture = cv2.VideoCapture(0)
 
         if not video_capture.isOpened():
-            sys.exit('Video source not found...')
+            sys.exit('Damn Broo!...')
 
         while True:
             ret, frame = video_capture.read()
